@@ -397,7 +397,6 @@ select {
     font-size: 14px;
     font-weight: 700;
     color: #113a8b;
-    color: darkgreen;
 }
 
 #buttons{
@@ -907,7 +906,6 @@ ease-in-out .9s both;
 
  #instruction{
     padding: 10px 5px 10px 5px;
-    background-color: red;
 }
 
 #buttons{
