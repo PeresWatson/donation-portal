@@ -612,6 +612,7 @@ ease-in-out .9s both;
         align-items: center;
         background-image: none;
         background-color: white;
+        box-sizing: border-box;
     }
     
 .container {
@@ -801,7 +802,7 @@ ease-in-out .9s both;
     flex: 0 0 auto;
     position: relative;
     width: 280px;
-    margin: 10px auto 30px;
+    margin: 10px auto ;
 
     display: flex;
     flex-flow: row nowrap;
@@ -836,20 +837,20 @@ ease-in-out .9s both;
 .inner-part{
     width:100%;
     height:auto;
-    margin-top:15px;
+    margin-top:10px;
    
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    align-items: center;
    }
    
-   .inner-part p{
-       font-size: 16px;
-       color:white;
+  .inner-part  P{
+       font-size: 14px;
        width:50%;
        height:auto;
-       opacity: 1;
-       font-weight: bold;
+       font-weight:lighter;
+       font-style: italic;
    
    }
    .icon-border{
@@ -863,7 +864,7 @@ ease-in-out .9s both;
        align-items: center;
    }
    .icon-border img{
-       width:70%;
+       width:80%;
        height:100%;
         
        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(0deg);
@@ -874,7 +875,6 @@ ease-in-out .9s both;
    .main-card {
        position: relative;
        background-color:green;
-       color: white;
        padding: 8px;
        border-radius: 2px;
        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15), 
@@ -885,14 +885,14 @@ ease-in-out .9s both;
      
    
 
-  .main-card p{
-    font-size: 11px;
+  .main-card>p{
+    font-size: 14px;
     color:white;
+    text-shadow: 0 0 2px black;
     font-weight: bold;
 
 }
 
-    
 #buttons{
     /* background-color: red; */
     margin-right: 20px;
