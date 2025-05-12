@@ -99,7 +99,8 @@
 
   .main-card p{
     font-size: 11px;
-    color:white;
+    color:#046bd2;
+    text-shadow:0px 0px 5px white;
     font-weight: bold;
 
 }
@@ -898,8 +899,8 @@ ease-in-out .9s both;
 
   .main-card + p{
     font-size: 16px;
-    color:white;
-   text-shadow: 0 0 2px rgb(32, 32, 27);
+    color:#046bd2;
+   text-shadow: 0 0 5px white;
     font-weight: bold;
 
 }
