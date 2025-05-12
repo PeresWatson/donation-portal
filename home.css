@@ -605,7 +605,7 @@ ease-in-out .9s both;
     .body{
         width: 100%;
         height: auto;
-        margin-top: 20px;
+        margin-top: 40px;
         display: flex;
         flex-flow: column wrap;
         justify-content: flex-start;
