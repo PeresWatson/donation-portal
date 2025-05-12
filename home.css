@@ -906,7 +906,7 @@ ease-in-out .9s both;
 
  #instruction{
     padding: 10px 5px 10px 5px;
-    background-color: red;
+    width:100%;
 }
 
 #buttons{
