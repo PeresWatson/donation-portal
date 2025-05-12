@@ -57,7 +57,7 @@
    
    .inner-part p{
        font-size: 16px;
-       color:white;
+       color:black;
        width:50%;
        height:auto;
        opacity: 1;
@@ -860,7 +860,7 @@ ease-in-out .9s both;
        font-size: 14px;
        width:50%;
        height:auto;
-      color:white;
+      color:black;
        font-weight:normal;
        font-style: italic;
    
