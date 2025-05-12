@@ -56,7 +56,7 @@
    }
    
    .inner-part p{
-       font-size: 14px;
+       font-size: 16px;
        color:white;
        width:50%;
        height:auto;
@@ -96,17 +96,14 @@
      }
      
    
-    .main-card + p {
+
+  .main-card p{
     font-size: 11px;
-    color:darkgreen;
+    color:white;
     font-weight: bold;
+
 }
-  .cost {
-    font-size: 11px;
-    color:darkgreen;
-    font-weight: bold;
-}
-   
+
 
 
 
@@ -400,6 +397,7 @@ select {
     font-size: 14px;
     font-weight: 700;
     color: #113a8b;
+    color: darkgreen;
 }
 
 #buttons{
@@ -619,7 +617,7 @@ ease-in-out .9s both;
     .body{
         width: 100%;
         height: auto;
-        margin-top: 50px;
+        margin-top: 20px;
         display: flex;
         flex-flow: column wrap;
         justify-content: flex-start;
@@ -899,20 +897,17 @@ ease-in-out .9s both;
      
    
 
-  .main-card + p {
-    font-size: 11px;
-    color:darkgreen;
+  .main-card + p{
+    font-size: 16px;
+    color:white;
+   text-shadow: 0 0 2px rgb(32, 32, 27);
     font-weight: bold;
-}
-  .cost {
-    font-size: 11px;
-    color:darkgreen;
-    font-weight: bold;
+
 }
 
  #instruction{
-    margin: 10px 5px 10px 5px;
-    width:100%;
+    padding: 10px 5px 10px 5px;
+    background-color: red;
 }
 
 #buttons{
