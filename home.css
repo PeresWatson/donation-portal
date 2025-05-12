@@ -786,6 +786,7 @@ ease-in-out .9s both;
     flex: 0 0 auto;
     position: relative;
     width: 280px;
+    height:100%;
     margin: 10px auto ;
 
     display: flex;
