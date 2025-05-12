@@ -56,6 +56,7 @@
    }
    
    .inner-part + p{
+       text-shadow: 0 0 2px black;
        font-size: 16px;
        color:white;
        width:50%;
@@ -389,7 +390,6 @@ select {
     font-size: 10px;
 }
 #buttons{
-    /* background-color: red; */
     margin-right: 20px;
 }
 .buttons button {
