@@ -96,11 +96,14 @@
      }
      
    
-
+    .main-card + p {
+    font-size: 11px;
+    color:darkgreen;
+    font-weight: bold;
+}
   #cost {
     font-size: 11px;
-    color:#046bd2;
-    text-shadow:0px 0px 3px white;
+    color:darkgreen;
     font-weight: bold;
 }
    
@@ -896,12 +899,15 @@ ease-in-out .9s both;
      
    
 
-  #cost{
-    font-size: 16px;
-    color:#046bd2;
-   text-shadow: 0 0 5px white;
+  .main-card + p {
+    font-size: 11px;
+    color:darkgreen;
     font-weight: bold;
-
+}
+  #cost {
+    font-size: 11px;
+    color:darkgreen;
+    font-weight: bold;
 }
 
  #instruction{
