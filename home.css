@@ -605,7 +605,7 @@ ease-in-out .9s both;
     .body{
         width: 100%;
         height: auto;
-        margin-top: 40px;
+        margin-top: 20px;
         display: flex;
         flex-flow: column wrap;
         justify-content: flex-start;
@@ -783,20 +783,25 @@ ease-in-out .9s both;
 }
 
 .project-grid {
-    display: flex;
     margin-top: 10px;
-    width: 100%;
+    width: auto;
     height: auto;
-    flex-flow: row wrap;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
+    gap:10px;
+    padding:5px;
   }
 
   
 .card-stack {
+    flex: 0 0 auto;
     position: relative;
-    width: 220px;
-    margin: 10px auto;
+    width: 260px;
+    margin: 10px auto 30px;
 
     display: flex;
     flex-flow: row nowrap;
@@ -809,7 +814,7 @@ ease-in-out .9s both;
   .card-layer{
     position: absolute;
     width: 95%;
-    height: 100%;
+    height: 120%;
     border-radius: 2px;
     background-color: rgb(35, 155, 35); 
     opacity: 0.8;
