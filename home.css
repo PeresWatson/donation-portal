@@ -55,8 +55,8 @@
     justify-content: space-between;
    }
    
-   .inner-part p{
-       font-size: 16px;
+   .inner-part .title{
+       font-size: 14px;
        color:black;
        width:50%;
        height:auto;
@@ -856,7 +856,7 @@ ease-in-out .9s both;
     align-items: center;
    }
    
-  .inner-part  P{
+  .inner-part  .title{
        font-size: 14px;
        width:50%;
        height:auto;
