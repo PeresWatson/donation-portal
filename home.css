@@ -601,12 +601,13 @@ ease-in-out .9s both;
 
 
 @media (max-width:485px) {
-
+    
     .body{
         width: 100%;
         height: auto;
+        margin-top: 20px;
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: column wrap;
         justify-content: flex-start;
         align-items: center;
         background-image: none;
@@ -614,9 +615,8 @@ ease-in-out .9s both;
     }
     
 .container {
-    height: 1000px;
+    height: auto;
     width: 95%;
-    margin-top: 10px;
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-start;
@@ -742,7 +742,8 @@ ease-in-out .9s both;
     width:100%;
     background-color: #fff;
     border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-bottom: 20px;
 }
 
 .main {
@@ -794,8 +795,8 @@ ease-in-out .9s both;
   
 .card-stack {
     position: relative;
-    width: 150px;
-    margin: 6px auto;
+    width: 220px;
+    margin: 10px auto;
 
     display: flex;
     flex-flow: row nowrap;
@@ -830,7 +831,7 @@ ease-in-out .9s both;
 .inner-part{
     width:100%;
     height:auto;
-    margin-top:10px;
+    margin-top:15px;
    
     display: flex;
     flex-flow: row nowrap;
@@ -838,7 +839,7 @@ ease-in-out .9s both;
    }
    
    .inner-part p{
-       font-size: 12px;
+       font-size: 16px;
        color:white;
        width:50%;
        height:auto;
@@ -869,7 +870,7 @@ ease-in-out .9s both;
        position: relative;
        background-color:green;
        color: white;
-       padding: 4px;
+       padding: 8px;
        border-radius: 2px;
        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15), 
                    0 0 15px rgba(0, 0, 0, 0.1) inset; 
@@ -880,9 +881,10 @@ ease-in-out .9s both;
    
 
   .main-card p{
-    font-size: 6px;
+    font-size: 11px;
     color:white;
     font-weight: bold;
+
 }
 
 
