@@ -814,7 +814,7 @@ ease-in-out .9s both;
   .card-layer{
     position: absolute;
     width: 95%;
-    height: 120%;
+    height: 100%;
     border-radius: 2px;
     background-color: rgb(35, 155, 35); 
     opacity: 0.8;
